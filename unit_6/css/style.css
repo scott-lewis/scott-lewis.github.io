@@ -1,105 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700');
-
+* {margin:0;padding:0;box-sizing:border-box;}
 a{
 	color: #5a5858;
 	text-decoration: none;
 }
-
+body {
+	font-family: "Barlow Condensed", "Arial", sans-serif;	
+	font-size: 24px;
+	color: #5a5858;
+}
 h1{
-	font-family: "Barlow Condensed", "Arial", sans-serif;
 	font-weight: bold;
 	font-size: 32px;
-	color: #5a5858;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
 h2{
-	font-family: "Barlow Condensed", "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 24px;
-	color: #5a5858;
 	text-decoration: none;
 	padding: .5em;
 	background-color: red;
 }
-
-nav{
-	background-color: #E8C66A
-	color: #5a5858;
-	text-transform: uppercase;
-	display: inline;
-}
-
-nav a {
-
-}
-
-p{
-	font-family: "Barlow Condensed", "Arial", sans-serif;	
-	font-size: 24px;
-	text-decoration: none;
-}
-
-header{
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-footer{
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-.feature {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-
-}
-
-.portfolio {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-.project {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%
-}
-
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}
-
-#wrapper {
-	width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -108,5 +30,3 @@ footer{
 	clear: both;
 	height: 0;
 }
-
-
