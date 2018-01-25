@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
+
+a{
+	color: #5a5858;
+	text-decoration: none;
+}
+
+header {
+	padding: 1em;
+	width: 80%;
+	margin: auto;
+}
+header h2 {
+    float: left;
+}
+nav {
+	float: right;
+}
+
+nav a:hover {
+	border-bottom: 2px solid red;
+}
+
+
+nav a:link {
+	text-transform: uppercase;
+	/*display: inline-block; */
+	margin-left: 1em;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+body {
+	font-family: "Barlow Condensed", "Arial", sans-serif;	
+	font-size: 18px; /* 1em = 18px*/
+	color: #5a5858;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 1.8em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 1.3em;
+	text-decoration: none;
+	padding: 0;
+	/* background-color: #9cb9c4; */
+}
+
+p {
+	line-height: 1.5em;
+	padding-bottom: .5em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+.main {
+	   /* background-color: orange; */
+	   width: 80%;
+	   margin: 0 auto;
+}
+
+/* main {
+	width: auto; 
+	width: 80%;
+	margin: 0 auto;
+} */
+
+.project {
+	float: left;
+	clear: auto;
+	width: 33.33%;
+	padding: 1em;
+	border: 0px;
+	/* background-color: #9cb9c4; */
+}
+
+.projectpage {
+	padding: 1em;
+	width: 80%;
+	margin: auto;
+}
+
+img {
+	width: 100%
+	
+
+}
+
+#logo {
+	float: left;
+	width: 5em;
+	margin-right: 10px;
+	/* min-width: 5em;
+	max-width: 10em; */
+}
+
+footer {
+	width: 80%;
+	margin: auto;
+	padding:2em 1em;
+	border-top: 1px solid red;
+}
+@media only screen and (max-width:1140px) {
+	.main, footer, header {
+		width:100%;
+	}
+}
+@media only screen and (max-width:920px) {
+	.project {
+		width:50%;
+	}
+}
+@media only screen and (max-width:680px) {
+	body {
+		font-size:16px;
+	}
+	nav {
+		float:none;
+		clear: both;
+		margin-top: 4em;
+	}
+	.project {
+		width:100%;
+	}
+}
+@media only screen and (max-width:430px) {
+	header {
+		font-size: 3.5vw;
+	}
+	nav {
+		font-size:1.5em;
+	}
+}
